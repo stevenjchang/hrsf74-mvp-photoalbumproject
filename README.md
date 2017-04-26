@@ -37,9 +37,8 @@ short MVP practice with React and MySql
       ```javascript
       module.exports = {
         entry: __dirname + app/index.js
-      }```
-
-  
+      }
+      ```
 
 ### Tasks to Complete 
 [ ] 
