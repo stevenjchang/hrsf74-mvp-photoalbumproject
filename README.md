@@ -27,10 +27,10 @@ short MVP practice with React and MySql
 
     ```javascript
     Webpack needs to know three things:
-          What JavaScript file it should transform.
-          Which transformations it should use on that file.
-          Where the new, transformed file should go.
-          ```
+    What JavaScript file it should transform.
+    Which transformations it should use on that file.
+    Where the new, transformed file should go.
+    ```
 
     - `module.exports` All of webpack's configuration will go inside of that object literal!.
     - **entry point** The first thing that webpack needs to know is an entry point. The entry point is the file that Webpack will transform. -- Your entry point should be the outermost component class of your React project.
