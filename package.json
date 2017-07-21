@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --progress --colors --watch",
-    "start": "webpack-dev-server"
+    "start": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/stevenjchang/hrsf74-mvp-photoalbumproject#readme",
   "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
